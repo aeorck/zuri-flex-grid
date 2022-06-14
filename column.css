@@ -2,13 +2,6 @@
   box-sizing: border-box;
 }
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228deg, 45%, 44%);
-}
 
 body {
   background-color: hsl(0deg, 0%, 95%);
@@ -102,10 +95,13 @@ main {
     width: 320px;
     padding: 40px auto;
   }
+  .card .auto .more:hover {
+    display: none;
+  }
   .card .sedan {
     border-radius: 15px 15px 0 0;
   }
   .card .lux {
     border-radius: 0 0 15px 15px;
   }
-}/*# sourceMappingURL=column.css.map */
+}
