@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  width: 70%;
+  margin: auto;
+}
+
+div {
+  padding: 30px;
+}
+
+.a {
+  grid-area: 1/1/4/4;
+  background-color: #590696;
+}
+
+.b {
+  grid-area: 4/1/7/3;
+  background-color: #37E2D5;
+}
+
+.c {
+  grid-area: 1/4/4/6;
+  background-color: #FBCB0A;
+}
+
+.d {
+  grid-area: 4/3/5/6;
+  background-color: #C70A80;
+}
+
+.e {
+  grid-area: 5/3/7/6;
+  background-color: #C70A80;
+}/*# sourceMappingURL=grid.css.map */
