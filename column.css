@@ -113,3 +113,14 @@ main {
     border-radius: 0 0 15px 15px;
   }
 }
+footer{
+  background-color: rgb(12, 46, 12);
+}
+footer .grid{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(17, 53, 53);
+  font-size: 20px;
+}
